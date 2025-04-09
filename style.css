@@ -269,7 +269,7 @@ h1,h2,h3,h4,h5,h6,p {
 .menu {
     display: flex;
     flex-direction: column;
-    gap: 150px;
+    gap: 110px;
 }
 
 .heading {
@@ -288,4 +288,90 @@ h1,h2,h3,h4,h5,h6,p {
     display: flex;
     flex-direction: column ;
     gap: 20px;
+}
+
+
+.flag {
+    display: flex;
+    background-color: #4E4637;
+    border-radius: 30px 30px 30px 0;
+    width: 45%;
+}
+
+.menu-inner {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.r-flag {
+    height: 100%;
+    border-radius: 0 30px 30px 0;
+}
+
+.descr-inner {
+    text-align: justify;
+    font-size: 25px;
+}
+
+.flag-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    color: white;
+    padding: .5em 1em;
+}
+
+.selection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.head {
+    text-align: center;
+    font-size: 50px;
+}
+
+.head-descr {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.main-menu-inner {
+    display: flex;
+    flex-direction: column;
+    gap: 50px
+}
+
+.all-menu-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+    padding: 1em;
+}
+
+.all-menu {
+    text-align: center;
+    font-size: 30px;
+    color: #4E4637;
+}
+
+.all-menu-txt {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.galka {
+    height: 15px;
+}
+
+.line {
+    height: 2px;
+    width: 60%;
+    background: #4E4637;
 }
