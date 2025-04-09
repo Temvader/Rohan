@@ -272,4 +272,20 @@ h1,h2,h3,h4,h5,h6,p {
     gap: 150px;
 }
 
+.heading {
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+}
 
+.left-txt {
+    font-size: 50px;
+    font-family: "Montserrat", sans-serif;
+    color: #4E4637;
+}
+
+.menu-demand {
+    display: flex;
+    flex-direction: column ;
+    gap: 20px;
+}
